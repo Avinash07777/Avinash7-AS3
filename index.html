@@ -1,0 +1,75 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>parent child AS3</title>
+        <style>
+            #p{
+                width:700px;
+                height: 700px;
+                background:black;
+                border: 700px;
+            }
+            #c1 
+            {
+                width: 600px;
+                height: 600px;
+                background: yellow;
+                border-top-right-radius: 600px;
+                border-bottom-left-radius: 600px;
+
+            }
+            #c2
+            {
+                width: 500px;
+                height: 500px;
+                background: red;
+                border-top-right-radius: 500px;
+                border-bottom-left-radius: 500px;
+            }
+           
+            #c3 
+            {
+                width: 400px;
+                height: 400px;
+                background: blue;
+                border-top-right-radius: 400px;
+                border-bottom-left-radius: 400px;
+            }
+            #c4 
+            {
+                width: 300px;
+                height: 300px;
+                background-color: darkturquoise;
+                border-top-right-radius: 300px;
+                border-bottom-left-radius: 300px;
+
+            }
+            #p:hover #c1{
+                background: darkorange;
+            }
+            #p:hover #c2{
+                background: darkslateblue;
+            }
+            #p:hover #c3{
+                background: darkgrey;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="p">
+            <div id="c1">
+                <div id="c2">
+                    <div id="c3">
+                        <div id="c4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
